@@ -1,6 +1,7 @@
+package J;
 import java.util.Scanner;
 public class function_practice {
-    static void fact(){
+    public static void fact(){
 Scanner mobj= new Scanner(System.in);
 // mobj.useDelimiter("\"");
 System.out.print("Enter an integer to get its factorial: ");
