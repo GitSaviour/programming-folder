@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        .password {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p>Login Page</p> -->
+    <input class="name" placeholder="Enter Username">
+    <input class="password" placeholder="password" type="password">
+    <button onclick="alert_1()">submit</button>
+  
+    <!-- <input class="name" placeholder="enter name">
+    <input class="email" placeholder="enter Email" type="email">
+    <input class="password" placeholder="enter PWD" type="password"> -->
+    <!-- <button onclick="alertFun()">
+        Submit
+    </button> -->
+    <!-- <button onclick="alert_cnt()">Click ME</button>
+
+    <script>
+            let a =0;
+        function alert_cnt() {
+  
+            a++;
+            console.log(`you clicked me ${a} times`);
+
+
+
+
+        } -->
+    <!-- // function alertFun() {
+        //     let name_input = document.querySelector(".name").value;
+        //     let mail_input = document.querySelector(".email");
+        //     let pass_input = document.querySelector(".password").value;
+        //     let mail = mail_input.value;
+        //     alert(`name is ${name_input} pass is: ${pass_input}mail is ${mail}`);
+        //  } -->
+    <script>
+        function alert_1() {
+            let username_ip = document.querySelector(".name").value;
+            let pass_ip = document.querySelector(".password").value;
+            console.log(`Username= ${username_ip}
+Password= ${pass_ip}`);
+
+        }
+    </script>
+</body>
+
+</html>
