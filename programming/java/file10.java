@@ -8,6 +8,6 @@ public class file10 {
         }
     }
     public static void main(String[] args) {
-        check(5);
+        check(6);
     }
 }
