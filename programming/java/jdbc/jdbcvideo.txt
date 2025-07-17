@@ -1,0 +1,7 @@
+4 components on jdbc
+Class
+---DriverManager Class
+Interface
+---Connection interface
+---Statement and PreparedStatements
+---ResultSet interface

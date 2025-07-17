@@ -1,6 +1,12 @@
 public class file1 {
 
     public static void main(String[] args){
+long x = System.currentTimeMillis();
+
+int h = (int) (x/3600000);
+System.out.println();
+
+       
 //         int a= 5;
 //         char b='x';
 //         float c = 5.2f ;
